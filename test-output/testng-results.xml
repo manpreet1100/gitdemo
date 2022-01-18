@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="3" total="6" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-12-11T16:56:18 IST" name="Suite" finished-at="2021-12-11T16:56:19 IST" duration-ms="172">
+    <groups>
+    </groups>
+    <test started-at="2021-12-11T16:56:18 IST" name="PERSONAL LOAN" finished-at="2021-12-11T16:56:18 IST" duration-ms="52">
+      <class name="testng_tutorial.demo">
+        <test-method signature="demo1()[pri:0, instance:testng_tutorial.demo@55536d9e]" started-at="2021-12-11T16:56:18 IST" name="demo1" finished-at="2021-12-11T16:56:18 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo1 -->
+      </class> <!-- testng_tutorial.demo -->
+      <class name="testng_tutorial.demo2">
+        <test-method is-config="true" signature="demo1()[pri:0, instance:testng_tutorial.demo2@793be5ca]" started-at="2021-12-11T16:56:18 IST" name="demo1" finished-at="2021-12-11T16:56:18 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo1 -->
+        <test-method is-config="true" signature="demo2()[pri:0, instance:testng_tutorial.demo2@793be5ca]" started-at="2021-12-11T16:56:18 IST" name="demo2" finished-at="2021-12-11T16:56:18 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo2 -->
+      </class> <!-- testng_tutorial.demo2 -->
+    </test> <!-- PERSONAL LOAN -->
+    <test started-at="2021-12-11T16:56:19 IST" name="car loan " finished-at="2021-12-11T16:56:19 IST" duration-ms="24">
+      <class name="testng_tutorial.demo3">
+        <test-method is-config="true" signature="mobilelogincarsuitee()[pri:0, instance:testng_tutorial.demo3@2f217633]" started-at="2021-12-11T16:56:18 IST" name="mobilelogincarsuitee" finished-at="2021-12-11T16:56:18 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobilelogincarsuitee -->
+        <test-method is-config="true" signature="hghghg()[pri:0, instance:testng_tutorial.demo3@2f217633]" started-at="2021-12-11T16:56:19 IST" name="hghghg" finished-at="2021-12-11T16:56:19 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hghghg -->
+        <test-method signature="weblogincarloan(java.lang.String)[pri:0, instance:testng_tutorial.demo3@2f217633]" started-at="2021-12-11T16:56:19 IST" name="weblogincarloan" finished-at="2021-12-11T16:56:19 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[carloan.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- weblogincarloan -->
+        <test-method is-config="true" signature="hghghg()[pri:0, instance:testng_tutorial.demo3@2f217633]" started-at="2021-12-11T16:56:19 IST" name="hghghg" finished-at="2021-12-11T16:56:19 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hghghg -->
+        <test-method signature="loginAPIcarloan()[pri:0, instance:testng_tutorial.demo3@2f217633]" started-at="2021-12-11T16:56:19 IST" name="loginAPIcarloan" finished-at="2021-12-11T16:56:19 IST" depends-on-methods="testng_tutorial.demo3.weblogincarloan" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginAPIcarloan -->
+        <test-method is-config="true" signature="weblogincarloansuite()[pri:0, instance:testng_tutorial.demo3@2f217633]" started-at="2021-12-11T16:56:19 IST" name="weblogincarloansuite" finished-at="2021-12-11T16:56:19 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- weblogincarloansuite -->
+      </class> <!-- testng_tutorial.demo3 -->
+    </test> <!-- car loan  -->
+  </suite> <!-- Suite -->
+</testng-results>
